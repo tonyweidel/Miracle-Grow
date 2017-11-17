@@ -3,8 +3,15 @@ const queue = require('./queue.js');
 const Random = require('./Random.js');
 
 function MiracleGrow(size){
-  var forestSize = size;
-  var queue = [plantingSeeds]
-
+  let forestSize = size;
+  let plantingSeeds = new Queue();
+  for(let x = 0;x < forestsize;x++){
+    plantingSeeds.enqueue(Random().discreetRangeIn(1,200));
+  }
+  let forest = new Tree(0);
+  for(let x = 0;x = plantingSeeds.length;x++){
+    forest.
+  }
 }
+
 module.exports = miracleGrow;

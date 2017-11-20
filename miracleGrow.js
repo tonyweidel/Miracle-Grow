@@ -10,8 +10,9 @@ function MiracleGrow(size){
   }
   let forest = new Tree(0);
   for(let x = 0;x = plantingSeeds.length;x++){
-    forest.
+    forest.add(new Tree(plantingSeeds.dequeue()));
   }
+  return forest;
 }
 
 module.exports = miracleGrow;
